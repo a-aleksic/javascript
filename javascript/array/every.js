@@ -1,4 +1,4 @@
-//Check if all the values in the ages array are 18 or over:
+//Check if all the values in the numbers array are less than 155:
 
 // First example:
 // Numbers
@@ -6,7 +6,9 @@ let result = [8, 5, 28, 150].every(function (number) {
   return number < 188;
 });
 
-console.log(result); // true
+console.log(result);
+
+//Check if all the values in the ages array are 18 or over:
 
 //Second example:
 //Age of users
