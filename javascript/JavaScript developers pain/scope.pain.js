@@ -19,7 +19,7 @@ function headColor() {
 }
 headColor(); // this is a bug, if we like to change different color to <h1 class="head">
 // and another color for right side which in this case have selector "rs"
-//commnet or delete call function
+//comment or delete call function
 
 document.querySelector(".rs").style.backgroundColor = color;
 document.querySelector(".rs .color-value").innerHTML = color;
